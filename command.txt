@@ -12,3 +12,5 @@ $ git push origin master
 
 リポジトリに反映されたか確認する。
 $ git show
+
+サイト内でファイルの内容を編集してみる
