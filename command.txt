@@ -1,0 +1,14 @@
+ファイルの追加に成功したので仕方をまとめる
+
+ローカルにリポジトリを複製する。
+$ git clone https://github.com/cureseven/repository-name.git
+$ cd ./repository-name/
+
+リポジトリに追加したいファイルをローカルに追加する。
+$ touch file.txt
+$ git add file.txt
+$ git commit -m 'test commit'
+$ git push origin master
+
+リポジトリに反映されたか確認する。
+$ git show
